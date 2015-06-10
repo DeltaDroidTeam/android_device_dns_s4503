@@ -312,6 +312,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, vendor/dns_S4503/s4503/s4503-vendor.mk)
 $(call inherit-product, vendor/dns/s4503/s4503-vendor.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_MANUFACTURER := DNS
 PRODUCT_BRAND := dns
